@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     width: 80%;
@@ -22,9 +23,19 @@ body{
     display: flex;
 
 }
+.first-ul{
+    margin-right:  357px; ;
+}
 .first-ul ul li{
     margin-left: 20px;
-    color: black;
+    color: #000000bf;
+    font-size: smaller;
+   
+    color: #000000bf;
+    
+}
+.second-ul ul .login{
+    font-size: 15px;
 }
 .second-ul ul a{
     color: black;
@@ -33,7 +44,7 @@ body{
 
 .sign {
     width: 74px;
-    height: 20px;
+    height: 29px;
     background-color: black;
     /* color: white; */
     border-radius: 4px;
@@ -47,6 +58,8 @@ body{
 .sign li{
     color: white;
     text-align: center;
+    font-size: small;
+    padding-top: 3px;
 }
 
 /* first section */
@@ -82,13 +95,204 @@ button{
     padding: 8px;
     background-image :linear-gradient(to right, #FB7B30,#A831A5);
     color: white;
+    border: 0px ;
 }
 .first-section-photo{
     
-    top: -7px;
-    position: absolute;
-    left: 665px;
+top: 18px;
+position: absolute;
+left: 734px;
 }
 .first-section-photo img{
     width: 324px;
 }
+
+/* second section */
+.section-two{
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-two img{
+    width: 96px
+}
+.section-two .five{
+    
+    width: 142px;
+}
+.section-two .sex{
+    width: 38px;
+}
+/* third section */
+
+.section-three{
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.section-three-list{
+    margin-top: 35px;
+}
+.section-three-photo img{
+    width: 301px;
+}
+
+.list1{
+    margin-top: 25px;
+}
+.list1 p{
+    margin-top: 9px;
+    font-size: small;
+    
+    color: #000000a1;
+}
+.second-button{
+    margin-top: 50px;
+    margin-left: 121px;;
+   
+
+}
+/* four-section */
+.section-four{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.section-four div{
+    width: 20%;
+    
+}
+.section-four div .img1{
+     width: 305px;
+     margin-left: -1px;
+}
+.section-four div .img2{
+       width: 233px;
+       margin-left: 71px;
+}
+.section-four div .img3{
+         width: 209px;
+         margin-left: 45px;
+}
+ 
+.section-four div .img4{
+    width: 268px;
+}   
+.section-four div .img5{
+    width: 270px;
+}
+.section-four div .img6{
+      width: 217px;
+      margin-left: 9px;
+}
+.section-four div .img7{
+    margin-left: 11px;
+    width: 213px;
+}
+.last-div{
+    width: 25%;
+}
+/* footer */
+footer{
+    font-size: x-small;
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.paragraph{
+    padding-top: 20px;
+}
+.icons{
+    padding-top: 10px;
+    
+  
+
+}
+.icons .logo-facebook{
+    width: 15px;
+}
+span{
+    font-weight: bold;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.list-link{
+    padding-top: 10px;
+    line-height: 1.8;
+}
+.list ul{
+    margin-left: 40px;
+    
+}
+.list ul a{
+    color: white;
+}
+.paragraph-footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Media Query Footer */
+@media screen and (max-width: 600px) {
+    .list{
+        display: block;
+        padding-bottom: 10px;
+        
+    }
+    .list ul{
+        padding-top: 20px;
+    }
+    .foot{
+        display: block;
+        padding: 0;
+    }
+    .paragraph{
+        padding-left: 37px;
+    }
+    .icons{
+        padding-left: 37px;
+    }
+    .paragraph-footer{
+        
+        text-align: center;
+    }
+  
+
+}
+@media screen and (max-width: 913px) and (min-width: 600px) {
+    .foot{
+        display: block;
+       
+    }
+    .list ul{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .invitation{
+        margin-bottom: 40px;
+    }
+
+
+
+
+}
+
